@@ -1,0 +1,22 @@
+{
+  "name": "simple-template",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Raihan"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/raihanorium/simple-template",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
