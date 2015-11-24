@@ -30,7 +30,7 @@
 						<img src="/img/cloud.png" class="img-responsive">
 					</div>
 					
-					<div id="text-carousel" class="carousel slide" data-ride="carousel">
+					<div id="text-carousel" class="carousel slide" data-ride="carousel" ng-show="$state.includes('home')">
 						<!-- Wrapper for slides -->
 						<div class="row">
 							<div class="col-xs-offset-1 col-xs-10 niceborder">
@@ -73,8 +73,6 @@
 
 
 				</div>
-
-				<!-- <div class="clearfix"></div> -->
 			</div>
 
 			<br />
@@ -95,8 +93,10 @@
 
 		<br />
 
-		<div ui-view></div>
-		
+		<div class="container ui-view-container">
+			<div ui-view></div>
+		</div>
+
 		<br />
 
 		<div class="container">
